@@ -5,6 +5,7 @@ body{
     background-attachment: fixed;
     background-size: cover;
     font-family: "Dancing Script", cursive;
+    margin: 0;
 }
 p {
     color:rgb(215, 203, 38); 
@@ -29,4 +30,42 @@ border-radius:10%;
 }
 .com_marging{
     padding:60px;
+    margin:0; 
 }
+.site-header{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px 32px;
+    background:#efff;
+    display: flex;
+    box-shadow: 0 10px 24px rgba(0 ,0 ,0 , 0.08);
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.logo img {
+    width: 96px;
+    height: auto;
+}
+
+.informacoes.aluno{
+    font-size: 14px;
+    color: gray;
+    margin-bottom: 4px;
+}
+
+.informacoes.titulo-site{
+    font-size: 18px;
+    margin: 0;
+    color: black;
+}
+.site-nav a{
+    color: darkslategray;
+    text-decoration: none;
+    font-weight: 600px;
+}
+ .site-nav a:hover {
+    text-decoration: underline;
+ }
